@@ -13,6 +13,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
     $id = $_GET['id'];
 
     // Preparar la consulta para obtener los datos del cliente
+    //consulta
     $sql = "SELECT * FROM cliente WHERE dni = '$id'";
 
     // Ejecutar la consulta
